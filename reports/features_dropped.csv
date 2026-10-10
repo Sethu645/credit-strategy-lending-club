@@ -1,0 +1,14 @@
+feature,reason
+emp_years,IV < 0.02
+credit_history_months,IV < 0.02
+verification_status,IV < 0.02
+total_acc,IV < 0.02
+revol_bal,IV < 0.02
+revol_to_income,IV < 0.02
+pub_rec,IV < 0.02
+pub_rec_bankruptcies,IV < 0.02
+loan_amnt,IV < 0.02
+delinq_2yrs,IV < 0.02
+open_acc,IV < 0.02
+fico,corr > 0.6 with subgrade_rank
+loan_to_income,corr > 0.6 with payment_to_income

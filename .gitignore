@@ -1,0 +1,13 @@
+# environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# data (download from Kaggle, see README) - never commit
+data/
+*.csv.gz
+*.db
+lc_sample.csv
+accepted_*.csv
+
+# keep result tables in reports/ (they are small and show the results on GitHub)
